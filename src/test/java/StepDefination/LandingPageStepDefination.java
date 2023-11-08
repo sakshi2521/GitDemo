@@ -37,6 +37,8 @@ public class LandingPageStepDefination {
 			System.err.println("Landing Page GitDemo");
 			System.err.println("Practising git");
 		
+			
+			System.out.println("Changes done by user 1");
 		Assert.assertTrue(landingPage.getTitleOfLadingPage().contains("GreenKart"));
 	}
 	@When("^user searched with shortname (.+) and extracted actual product$")
