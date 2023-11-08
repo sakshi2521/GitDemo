@@ -39,6 +39,8 @@ public class LandingPageStepDefination {
 		
 			
 			System.out.println("Changes done by user 1");
+			
+			System.out.println("changes done by user 2");
 		Assert.assertTrue(landingPage.getTitleOfLadingPage().contains("GreenKart"));
 	}
 	@When("^user searched with shortname (.+) and extracted actual product$")
