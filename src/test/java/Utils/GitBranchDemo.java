@@ -5,5 +5,7 @@ public class GitBranchDemo {
 		
 		
 		System.err.println("Git branching");
+		
+		System.out.println("Merging develop and master branch");
 	}
 }
