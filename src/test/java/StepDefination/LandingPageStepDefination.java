@@ -34,7 +34,8 @@ public class LandingPageStepDefination {
 	
 	@Given("User is on greencart home page")
 	public void user_is_on_greencart_home_page() throws IOException {
-			
+			System.err.println("Landing Page GitDemo");
+			System.err.println("Practising git");
 		
 		Assert.assertTrue(landingPage.getTitleOfLadingPage().contains("GreenKart"));
 	}
